@@ -1,0 +1,10 @@
+ivanov ivan ivanovich 4 5 4 3 4
+petrov petr petrovich 3 3 3 3
+smirnov andrey alexeevich 5 5 5 4 4.75
+sokolov dmitriy igorevich 4 4 4 5 5 4.4
+volkov alexey vladimirovich 5 5 5 5 5 5 5
+lebedev sergey sergeevich 3 4 3 4 3.5
+kozlov oleg olegovich 2 2 2 2
+novikov ilya ilyich 4 5 4 5 4.5
+morozov pavel pavlovich 3 3 3 3
+zaitsev victor victorovich 5 4 5 4.66667
