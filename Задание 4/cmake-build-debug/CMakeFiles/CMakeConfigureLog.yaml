@@ -1,0 +1,490 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/CLion 2025.2.1/bin/mingw64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/alex/Desktop/униK/2 сем/языки/Лаба 3/Задание 4/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/CLion 2025.2.1/bin/mingw64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/alex/Desktop/униK/2 сем/языки/Лаба 3/Задание 4/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/alex/Desktop/\u0443\u043d\u0438K/2 \u0441\u0435\u043c/\u044f\u0437\u044b\u043a\u0438/\u041b\u0430\u0431\u0430 3/\u0417\u0430\u0434\u0430\u043d\u0438\u0435 4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzmy0p"
+      binary: "C:/Users/alex/Desktop/\u0443\u043d\u0438K/2 \u0441\u0435\u043c/\u044f\u0437\u044b\u043a\u0438/\u041b\u0430\u0431\u0430 3/\u0417\u0430\u0434\u0430\u043d\u0438\u0435 4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzmy0p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/alex/Desktop/униK/2 сем/языки/Лаба 3/Задание 4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzmy0p'
+        
+        Run Build Command(s): "E:/CLion 2025.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_70488
+        [1/2] "E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\cc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj -c "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\cc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_70488.dir/'
+         E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_70488.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\alex\\AppData\\Local\\Temp\\ccHhaCPm.s
+        GNU C23 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"
+        ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 627291e8cb94ca5881baaff078669271
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_70488.dir/'
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj C:\\Users\\alex\\AppData\\Local\\Temp\\ccHhaCPm.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\cc.exe"  -v -Wl,-v CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj -o cmTC_70488.exe -Wl,--out-implib,libcmTC_70488.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\cc.exe
+        COLLECT_LTO_WRAPPER=E:/CLion\\ 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
+        COMPILER_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70488.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_70488.'
+         E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\alex\\AppData\\Local\\Temp\\ccZEOLGx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_70488.exe E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_70488.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\alex\\AppData\\Local\\Temp\\ccZEOLGx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_70488.exe E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_70488.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o\x0d
+        GNU ld (GNU Binutils) 2.45\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70488.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_70488.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [E:/CLion 2025.2.1/bin/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;E:/CLion 2025.2.1/bin/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/alex/Desktop/униK/2 сем/языки/Лаба 3/Задание 4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pzmy0p']
+        ignore line: []
+        ignore line: [Run Build Command(s): "E:/CLion 2025.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_70488]
+        ignore line: [[1/2] "E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\cc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj -c "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\cc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_70488.dir/']
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_70488.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\alex\\AppData\\Local\\Temp\\ccHhaCPm.s]
+        ignore line: [GNU C23 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 627291e8cb94ca5881baaff078669271]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_70488.dir/']
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj C:\\Users\\alex\\AppData\\Local\\Temp\\ccHhaCPm.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\cc.exe"  -v -Wl -v CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj -o cmTC_70488.exe -Wl --out-implib libcmTC_70488.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\cc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/CLion\\ 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70488.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_70488.']
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\alex\\AppData\\Local\\Temp\\ccZEOLGx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_70488.exe E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_70488.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\alex\\AppData\\Local\\Temp\\ccZEOLGx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_70488.exe E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_70488.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_70488.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o\x0d]
+        ignore line: [GNU ld (GNU Binutils) 2.45\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70488.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_70488.'\x0d]
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': ../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe" "--version"
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/alex/Desktop/\u0443\u043d\u0438K/2 \u0441\u0435\u043c/\u044f\u0437\u044b\u043a\u0438/\u041b\u0430\u0431\u0430 3/\u0417\u0430\u0434\u0430\u043d\u0438\u0435 4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m7e1xj"
+      binary: "C:/Users/alex/Desktop/\u0443\u043d\u0438K/2 \u0441\u0435\u043c/\u044f\u0437\u044b\u043a\u0438/\u041b\u0430\u0431\u0430 3/\u0417\u0430\u0434\u0430\u043d\u0438\u0435 4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m7e1xj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/alex/Desktop/униK/2 сем/языки/Лаба 3/Задание 4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m7e1xj'
+        
+        Run Build Command(s): "E:/CLion 2025.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_bf028
+        [1/2] "E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\c++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\c++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_bf028.dir/'
+         E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bf028.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\alex\\AppData\\Local\\Temp\\cczrt2WX.s
+        GNU C++17 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"
+        ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"
+        ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"
+        ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 15ecabf2b66f98e1f3c9c000fd0d30f8
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_bf028.dir/'
+         E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\alex\\AppData\\Local\\Temp\\cczrt2WX.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\c++.exe"  -v -Wl,-v CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_bf028.exe -Wl,--out-implib,libcmTC_bf028.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\c++.exe
+        COLLECT_LTO_WRAPPER=E:/CLion\\ 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
+        COMPILER_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf028.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_bf028.'
+         E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\alex\\AppData\\Local\\Temp\\cctaNLw9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bf028.exe E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_bf028.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\alex\\AppData\\Local\\Temp\\cctaNLw9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bf028.exe E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_bf028.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o\x0d
+        GNU ld (GNU Binutils) 2.45\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf028.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_bf028.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+          add: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+          add: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+          add: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++] ==> [E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        collapse include dir [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32] ==> [E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward] ==> [E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        collapse include dir [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [E:/CLion 2025.2.1/bin/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++;E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32;E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward;E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;E:/CLion 2025.2.1/bin/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;E:/CLion 2025.2.1/bin/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/alex/Desktop/униK/2 сем/языки/Лаба 3/Задание 4/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m7e1xj']
+        ignore line: []
+        ignore line: [Run Build Command(s): "E:/CLion 2025.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_bf028]
+        ignore line: [[1/2] "E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\c++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\c++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_bf028.dir/']
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bf028.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\alex\\AppData\\Local\\Temp\\cczrt2WX.s]
+        ignore line: [GNU C++17 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/CLion 2025.2.1/bin/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 15ecabf2b66f98e1f3c9c000fd0d30f8]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_bf028.dir/']
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\alex\\AppData\\Local\\Temp\\cczrt2WX.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\c++.exe"  -v -Wl -v CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_bf028.exe -Wl --out-implib libcmTC_bf028.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\CLion 2025.2.1\\bin\\mingw64\\bin\\c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/CLion\\ 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf028.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_bf028.']
+        ignore line: [ E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\alex\\AppData\\Local\\Temp\\cctaNLw9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bf028.exe E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_bf028.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=E:/CLion 2025.2.1/bin/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\alex\\AppData\\Local\\Temp\\cctaNLw9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bf028.exe E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LE:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_bf028.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_bf028.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/CLion 2025.2.1/bin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o\x0d]
+        ignore line: [GNU ld (GNU Binutils) 2.45\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf028.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_bf028.'\x0d]
+        ignore line: []
+        ignore line: []
+        linker tool for 'CXX': ../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "E:/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-posix-seh-msvcrt-rt_v13-rev0/mingw64/bin/ld.exe" "--version"
+      
+...
